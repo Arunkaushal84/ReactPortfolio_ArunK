@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio_ArunK/static/css/main.21a1ebab.css",
+    "main.js": "/ReactPortfolio_ArunK/static/js/main.32d3e6a9.js",
+    "static/js/787.1ed0c42c.chunk.js": "/ReactPortfolio_ArunK/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Image.png": "/ReactPortfolio_ArunK/static/media/Image.98830cdf643f0f573c72.png",
+    "static/media/Resume.pdf": "/ReactPortfolio_ArunK/static/media/Resume.6a5442d7550714d18fb6.pdf",
+    "static/media/homebg.jpg": "/ReactPortfolio_ArunK/static/media/homebg.740b03bd2a4f174b835b.jpg",
+    "static/media/Scheduler.png": "/ReactPortfolio_ArunK/static/media/Scheduler.847cc29c448321b39809.png",
+    "static/media/Weatherapp (1).png": "/ReactPortfolio_ArunK/static/media/Weatherapp (1).1d19ae2451f0367bd145.png",
+    "static/media/skillsbg.avif": "/ReactPortfolio_ArunK/static/media/skillsbg.facc83817c10bd98916a.avif",
+    "static/media/PasswordGenerator.png": "/ReactPortfolio_ArunK/static/media/PasswordGenerator.a97c641f21354428061d.png",
+    "static/media/bg.jpg": "/ReactPortfolio_ArunK/static/media/bg.ad28e25f824625fabb24.jpg",
+    "static/media/Quiz.png": "/ReactPortfolio_ArunK/static/media/Quiz.3be06846d58bc36780e7.png",
+    "static/media/github-icon.png": "/ReactPortfolio_ArunK/static/media/github-icon.ba9cb8d57d53e7189c48.png",
+    "index.html": "/ReactPortfolio_ArunK/index.html",
+    "main.21a1ebab.css.map": "/ReactPortfolio_ArunK/static/css/main.21a1ebab.css.map",
+    "main.32d3e6a9.js.map": "/ReactPortfolio_ArunK/static/js/main.32d3e6a9.js.map",
+    "787.1ed0c42c.chunk.js.map": "/ReactPortfolio_ArunK/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21a1ebab.css",
+    "static/js/main.32d3e6a9.js"
+  ]
+}
