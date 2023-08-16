@@ -1,7 +1,7 @@
 
 import React from 'react';
 import bg from '../../assets/homebg.jpg';
-import heroimg from '../../assets/myavatar.png';
+import myphoto from '../../assets/Image.png';
 import resumePdf from '../../assets/Resume.pdf';
 import Footer from '../footer' 
 
@@ -33,8 +33,8 @@ export default function Home() {
           <div className="hero-img mt-4 sm:mt-0 sm:ml-4 flex-grow-0 flex items-center justify-center sm:justify-end">
             <img
               className="hero-avatar max-w-full max-h-full"
-          img src={heroimg}
-              alt="my avatar"
+          img src={myphoto}
+              alt="My Photo"
             />
           </div>
         </div>
