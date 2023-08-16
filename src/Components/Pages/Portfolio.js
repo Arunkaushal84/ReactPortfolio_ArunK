@@ -1,12 +1,12 @@
 import React from 'react';
 import Footer from '../footer'
 import githubIcon from '../../assets/github-icon.png'; 
-import project1Img from '../../assets/Rentix (1).png'
-import project2Img from '../../assets/Eventfinder.png'
-import project3Img from '../../assets/note-taker (1).png'
-import project4Img from '../../assets/Tech-blog (1).png'
-import project5Img from '../../assets/WorkSchedular (1).png'
-import project6Img from '../../assets/Weatherapp (1).png'
+import project1Img from '../../assets/Weatherapp (1).png'
+import project2Img from '../../assets/PasswordGenerator.png'
+import project3Img from '../../assets/Scheduler.png'
+import project4Img from '../../assets/Quiz.png'
+// import project5Img from '../../assets/WorkSchedular (1).png'
+// import project6Img from '../../assets/Weatherapp (1).png'
 
 
 export default function Portfolio() {
@@ -14,46 +14,47 @@ export default function Portfolio() {
   const projects = [
     {
       id: 1,
-      title: 'Rentixx',
+      title: 'WeatherApp',
       imageUrl: project1Img,
-      githubLink: 'https://github.com/Amritpal-Kaur0/ReNTIXX_',
-      deployedSiteLink:'https://rentixx-64a3fa155998.herokuapp.com/',
+      githubLink: 'https://github.com/Arunkaushal84/Weather-App_',
+      deployedSiteLink:'https://arunkaushal84.github.io/Weather-App/',
     },
     {
       id: 2,
-      title: 'EventFinderr',
+      title: 'Password Generator',
       imageUrl: project2Img,
-      githubLink: 'https://github.com/Amritpal-Kaur0/EventFinderr',
-      deployedSiteLink: 'https://amritpal-kaur0.github.io/EventFinderr/',
+      githubLink: 'https://github.com/Arunkaushal84/Password-Generator',
+      deployedSiteLink: 'https://arunkaushal84.github.io/Password-Generator/',
     },
     {
       id: 3,
-      title: 'Note-Taker',
+      title: 'Scheduler',
       imageUrl: project3Img,
-      githubLink: 'https://github.com/Amritpal-Kaur0/NOTE-Taker',
-      deployedSiteLink: 'https://amrit-note-taker.herokuapp.com//',
+      githubLink: 'https://github.com/Arunkaushal84/Scheduler',
+      deployedSiteLink: 'https://arunkaushal84.github.io/Scheduler/',
     },
     {
       id: 4,
-      title: 'Tech-Blog',
+      title: 'Quiz',
       imageUrl: project4Img,
-      githubLink: 'https://github.com/Amritpal-Kaur0/TEch--BloGG',
-      deployedSiteLink: 'https://hayer-techblog-a4b94ceb5446.herokuapp.com/',
+      githubLink: 'https://github.com/Arunkaushal84/quiz',
+      deployedSiteLink: 'https://arunkaushal84.github.io/quiz/',
     },
-    {
-      id: 5,
-      title: 'Work Day Scheduler',
-      imageUrl: project5Img,
-      githubLink: 'https://github.com/Amritpal-Kaur0/WorkDaySchedular',
-      deployedSiteLink: 'https://amritpal-kaur0.github.io/WorkDaySchedular/',
-    },
-    {
-      id: 6,
-      title: 'Weather App',
-      imageUrl: project6Img,
-      githubLink: 'https://github.com/Amritpal-Kaur0/5Weather',
-      deployedSiteLink: 'https://amritpal-kaur0.github.io/5Weather/',
-    },
+    
+    // {
+    //   id: 5,
+    //   title: 'Work Day Scheduler',
+    //   imageUrl: project5Img,
+    //   githubLink: 'https://github.com/Amritpal-Kaur0/WorkDaySchedular',
+    //   deployedSiteLink: 'https://amritpal-kaur0.github.io/WorkDaySchedular/',
+    // },
+    // {
+    //   id: 6,
+    //   title: 'Weather App',
+    //   imageUrl: project6Img,
+    //   githubLink: 'https://github.com/Amritpal-Kaur0/5Weather',
+    //   deployedSiteLink: 'https://amritpal-kaur0.github.io/5Weather/',
+    // },
     
     
   ];

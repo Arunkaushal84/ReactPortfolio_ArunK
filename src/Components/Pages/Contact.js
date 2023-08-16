@@ -51,7 +51,7 @@ const ContactForm = () => {
   return (
     <div>
     <div className="box  p-20 max-w-xl mx-auto">
-      <form onSubmit={handleSubmit} className="bg-yellow-100 shadow-md  shadow-black rounded px-6 pt-6 pb-8 mb-4">
+      <form onSubmit={handleSubmit} className="bg-blue-100 shadow-md  shadow-gray rounded px-6 pt-6 pb-8 mb-4">
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
             Name
@@ -107,7 +107,7 @@ const ContactForm = () => {
         <div className="flex items-center justify-center">
           <button
             type="submit"
-            className="bg-amber-400 hover:bg-amber-500 btn text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-blue-400 hover:bg-red-500 btn text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
           >
             Submit
           </button>

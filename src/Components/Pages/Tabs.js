@@ -5,11 +5,11 @@ import { FaHome } from 'react-icons/fa';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className="navbar p-3 bg-slate-500 text-xl border-4 border-x-yellow-400 flex flex-col sm:flex-row justify-between items-center">
-      <h1 className="logo text-3xl italic p-5 pt-4 text-amber-400">Amrit</h1>
-      <ul className="nav nav-tabs flex text-amber-400 justify-end items-center">
-        <li className="nav-item m-4 flex hover:pb-2 hover:text-amber-50">
-          <FaHome className="hover:pb-2 hover:text-amber-500 h-6 w-6 mr-1" />
+    <div className="navbar p-3 bg-slate-500 text-xl border-4 border-x-Blue-400 flex flex-col sm:flex-row justify-between items-center">
+      <h1 className=" text-3xl  p-5 pt-4 text-Blue-400">Arun Kaushal, P.Eng.</h1>
+      <ul className="nav nav-tabs flex text-Blue-400 justify-end items-center">
+        <li className="nav-item m-4 flex hover:pb-2 hover:text-red-50">
+          <FaHome className="hover:pb-2 hover:text-red-500 h-6 w-6 mr-1" />
           <a
             href="#home"
             onClick={() => handlePageChange('Home')}
@@ -18,7 +18,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             Home
           </a>
         </li>
-        <li className="nav-item hover:pb-2 hover:text-amber-500 m-4">
+        <li className="nav-item hover:pb-2 hover:text-red-500 m-4">
           <a
             href="#about"
             onClick={() => handlePageChange('About')}
@@ -27,7 +27,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             About
           </a>
         </li>
-        <li className="nav-item hover:pb-2 hover:text-amber-500">
+        <li className="nav-item hover:pb-2 hover:text-red-500">
           <a
             href="#portfolio"
             onClick={() => handlePageChange('Portfolio')}
@@ -36,7 +36,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             Portfolio
           </a>
         </li>
-        <li className="nav-item hover:pb-2 hover:text-amber-500 m-4">
+        <li className="nav-item hover:pb-2 hover:text-red-500 m-4">
           <a
             href="#Contact"
             onClick={() => handlePageChange('Contact')}
