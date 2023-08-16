@@ -7,6 +7,7 @@ This project is a personal website for my resume that I created with React to hi
 This resume website, a one-page React application, gives a summary of my professional background, education, talents, past employment experiences, and side projects. It has a clear, user-friendly layout that makes it simple to explore and find the information you need.
 
 ## Deployed Link
+https://arunkaushal84.github.io/ReactPortfolio_ArunK/
 
 ## Usage
 
