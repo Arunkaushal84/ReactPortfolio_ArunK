@@ -5,8 +5,7 @@ import project1Img from '../../assets/Weatherapp (1).png'
 import project2Img from '../../assets/PasswordGenerator.png'
 import project3Img from '../../assets/Scheduler.png'
 import project4Img from '../../assets/Quiz.png'
-// import project5Img from '../../assets/WorkSchedular (1).png'
-// import project6Img from '../../assets/Weatherapp (1).png'
+
 
 
 export default function Portfolio() {
@@ -41,26 +40,13 @@ export default function Portfolio() {
       deployedSiteLink: 'https://arunkaushal84.github.io/quiz/',
     },
     
-    // {
-    //   id: 5,
-    //   title: 'Work Day Scheduler',
-    //   imageUrl: project5Img,
-    //   githubLink: 'https://github.com/Amritpal-Kaur0/WorkDaySchedular',
-    //   deployedSiteLink: 'https://amritpal-kaur0.github.io/WorkDaySchedular/',
-    // },
-    // {
-    //   id: 6,
-    //   title: 'Weather App',
-    //   imageUrl: project6Img,
-    //   githubLink: 'https://github.com/Amritpal-Kaur0/5Weather',
-    //   deployedSiteLink: 'https://amritpal-kaur0.github.io/5Weather/',
-    // },
     
+
     
   ];
 
   return (
-    <div className="flex bg-amber-100 flex-wrap justify-center pb-16">
+    <div className="flex bg-white-500 flex-wrap justify-center pb-16">
       {projects.map((project) => (
         <div key={project.id} className=" card max-w-sm rounded overflow-hidden shadow-lg shadow-black m-4">
           <div className="relative box">
@@ -84,7 +70,7 @@ export default function Portfolio() {
                 href={project.deployedSiteLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn p-2 px-4  bg-amber-400 hover:bg-amber-500  rounded-xl  text-white"
+                className="btn p-2 px-4  bg-blue-500 hover:bg-slate-500  rounded-xl  text-white"
               >
                 View Deployed Site
               </a>
